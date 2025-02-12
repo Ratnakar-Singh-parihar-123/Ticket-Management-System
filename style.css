@@ -1,0 +1,29 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(128, 169, 205);
+  
+}
+
+.ticket-section{
+    background-color: lightgoldenrodyellow;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: springgreen;
+}
+
+#bookTicket:hover{
+    background-color: lime;
+}
